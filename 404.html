@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulário</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header class="container-header">
+        <h1 class="header-title">Registro</h1>
+    </header>
+
+    <main class="container-main" id="main-main">
+        <form class="main-form">
+            <div class="container-form">
+                <label>Nome: </label>
+                <input class="form-input" type="text" placeholder="Digite seu Nome..." id="input-name" required>
+            </div>
+            <div class="container-form">
+                <label>Sobrenome</label>
+                <input class="form-input" type="text" placeholder="Digite seu sobrenome..." id="input-sobrenome" required>
+            </div>
+            <div class="container-form">
+                <label>CPF</label>
+                <input class="form-input" type="number" placeholder="Digite seu CPF..." id="input-cpf" required>
+            </div>
+            <div class="container-form">
+                <label>E-mail</label>
+                <input class="form-input" type="email" placeholder="Digite seu E-mail..." id="input-email" required>
+            </div>
+            <div class="container-form">
+                <label>Senha</label>
+                <input class="form-input" type="password" placeholder="Digite sua Senha..." id="input-senha" required>
+            </div>
+            <div class="container-button">
+                <button class="button-send" type="button" onclick="enviar()">Enviar</button>
+                <button class="button-clear" type="reset">Limpar campos</button>
+            </div>
+        </form>
+        <div id="table-form" style="margin: 5%;"></div>
+    </main>
+
+    <script text="text/javascript" src="main.js"></script>
+</body>
+
+</html>
